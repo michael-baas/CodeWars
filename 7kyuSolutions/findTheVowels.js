@@ -10,3 +10,10 @@
 // NOTES
 // Vowels in this context refers to: a e i o u y (including upper case)
 // This is indexed from [1..n] (not zero indexed!)
+
+
+// P - A string
+// R - Array of vowel positions
+// E - See above 
+// P - Loop through string and check current index against list of vowels
+
