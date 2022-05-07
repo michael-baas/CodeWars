@@ -11,4 +11,11 @@
 // E: Examples -  addLength('apple ban') => ["apple 5", "ban 3"]
 // P: Pseudocode - Loop through array, check each index's length then append that length it to the end of the index's string
 
-
+function addLength(str) {
+//start-here
+  let ary = str.split(' ')
+  for(i=0; i < ary.length; i++){
+    ary[i] += ` ${ary[i].length}`
+  }
+  return ary
+}
