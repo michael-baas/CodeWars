@@ -6,3 +6,14 @@
 // P Check each char of string to see if it's a 1 or a 0. If it's a 1
 // add 2^(index)
 
+function binToDec(bin){
+  // ...
+  let dec = 0;
+  for(i=0; i < bin.length; i++){
+    if(bin[i] == 1){
+      dec += 2**i
+    }
+  }
+  return dec
+}
+
