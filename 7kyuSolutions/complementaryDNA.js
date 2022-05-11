@@ -15,3 +15,14 @@
 // iterate through loop and return compliment to new Array
 // join Array into string and return
 
+function DNAStrand(dna){
+   let split = dna.split('')
+   let reversed = [];
+  for (i=0; i < split.length; i++ ){
+    split[i] === 'A' ? reversed.push('T') : 
+    split[i] ==='T' ? reversed.push('A') :
+    split[i] === 'G' ? reversed.push ('C') :
+    split[i]  === 'C' ? reversed.push('G') : 'error'
+  }
+  return reversed.join('')  
+}
