@@ -11,3 +11,7 @@
 // dnaStrand [G,T,A,T] `shouldBe` [C,A,T,A]
 // dnaStrand [A,A,A,A] `shouldBe` [T,T,T,T]
 
+// Create an Array from the string
+// iterate through loop and return compliment to new Array
+// join Array into string and return
+
