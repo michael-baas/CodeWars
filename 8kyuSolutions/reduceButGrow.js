@@ -7,4 +7,6 @@
 // E - [1,2,3,4a] => 1 * 2 * 3 * 4 = 24
 // P - use reduce method to multiply values
 
-
+function grow(x){
+  return x.reduce((c,acc) => c * acc )
+}
