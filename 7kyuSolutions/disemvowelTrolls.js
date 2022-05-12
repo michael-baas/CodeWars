@@ -8,4 +8,11 @@
 // 
 // Note: for this kata y isn't considered a vowel.
 
+// P - A string
+// R - string less vowels
+// E - disemvowel("This website is for losers LOL!"), "Ths wbst s fro lsrs LL!")
+// R - split string into an array then filter results minus vowels
 
+function disemvowel(str) {
+  return str.split('').filter((char) => (char.toLowerCase() != 'a') && (char.toLowerCase() != 'e') && (char.toLowerCase() != 'i' ) &&  (char.toLowerCase() != 'o' ) && (char.toLowerCase() != 'u')).join('')
+}
