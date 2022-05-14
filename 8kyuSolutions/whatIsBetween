@@ -11,3 +11,11 @@
 // R - Array of integers between inputs including the inputs 
 // E - 1,4 [1,2,3,4]
 // P - loop through and add elements to an array
+
+function between(a,b){
+  let ary = [];
+  for(i = a; i <=b; i++){
+    ary.push(i)
+  }
+  return ary
+}
