@@ -17,3 +17,13 @@
 // P - figure out what the first and last array items are loop though
 // and check if all numbers are in the array if not add them to the
 // array.
+//
+function pipeFix(numbers){
+
+  let arr = []
+
+  for(let i = numbers[0]; i <= numbers[numbers.length -1]; i++){
+    arr.push(i)
+  }
+  return arr
+}
