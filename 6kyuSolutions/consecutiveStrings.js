@@ -21,3 +21,12 @@
 //
 // Note
 // consecutive strings : follow one after another without an interruption
+
+// P - Array of strings & an integer
+// R - The longest new string after being concatenated integer amount of times
+// E - See above
+// P - Pseudocode 
+//
+// Need to concatenate the array. Slice the array integer amount in each itteration 
+// Need to loop through the new array and figure out the longest string
+
