@@ -22,4 +22,7 @@
 // E - See above 
 // P - check string length and see if its even or odd number. If even divide lengthy by two and add 1 and return that char. if its odd return length / 2 and the char after that
 
+ function getMiddle(s){
+  return s.length % 2 == 0 ? s.slice(s.length / 2 , (s.length / 2) + 1) : s.slic(s.length/2)
+}
 
