@@ -16,4 +16,10 @@
 // #Output
 // 
 // The middle character(s) of the word represented as a string.
-// 
+
+// P - a string "word"
+// R - middle character(s) of the word if length is odd return middle char, if it's even return the middle 2 characters
+// E - See above 
+// P - check string length and see if its even or odd number. If even divide lengthy by two and add 1 and return that char. if its odd return length / 2 and the char after that
+
+
