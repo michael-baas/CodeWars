@@ -11,4 +11,9 @@
 // Example
 // Input: 1,3,5,6,7,8 Output: 1,2,3,4,5,6,7,8
 
-
+// P - array of numbers
+// R - the array of numbers with every number between min and max filled
+// E - see above
+// P - figure out what the first and last array items are loop though
+// and check if all numbers are in the array if not add them to the
+// array.
