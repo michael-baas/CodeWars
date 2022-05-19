@@ -17,3 +17,17 @@
 // E - See above 
 // P - Loop through string and check current index against list of vowels
 
+function vowelIndices(word) {
+    let indicies = [];
+    for (i = 0; i < word.length; i++) {
+        if (
+            word[i].toLowerCase() === "a" ||
+            word[i].toLowerCase() === "e" ||
+            word[i].toLowerCase() === "i" ||
+            word[i].toLowerCase() === "o" ||
+            (word[i].toLowerCase() === "u") | (word[i].toLowerCase() === "y")
+        )
+            indicies.push(i + 1);
+    }
+    return indicies;
+}
