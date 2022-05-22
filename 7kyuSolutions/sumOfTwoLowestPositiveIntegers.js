@@ -3,3 +3,8 @@
 // For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
 
 // [10, 343445353, 3453445, 3453545353453] should return 3453455.
+
+// P - An Array
+// R - Integer
+// E - See Above
+// P - Determine lowest number by comparing each number vs current lowest number, if a new number becomes the lowest number, take the previous lowest number and put that into the lower number variable. At the end of the Array, add lower and lowest number and return them.
