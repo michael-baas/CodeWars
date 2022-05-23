@@ -8,3 +8,18 @@
 // R - Integer
 // E - See Above
 // P - Determine lowest number by comparing each number vs current lowest number, if a new number becomes the lowest number, take the previous lowest number and put that into the lower number variable. At the end of the Array, add lower and lowest number and return them.
+
+function sumTwoSmallestNumbers(numbers) {
+    //Code here
+    let lower = Infinity;
+    let lowest = Infinity;
+    for (i = 0; i < numbers.length; i++) {
+        if (numbers[i] < lowest) {
+            lower = lowest;
+            lowest = numbers[i];
+        } else if (numbers[i] < lower) {
+            lower = numbers[i];
+        }
+    }
+    return lowest + lower;
+}
