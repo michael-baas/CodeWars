@@ -10,3 +10,8 @@
 // Principal will always be an integer between 0 and 9999
 // interest rate will be a decimal between 0 and 1
 // number of time periods will be an integer between 0 and 50
+
+// P - Principle, rate, numbers of iterations
+// R - Array of simple and compound interest numbers
+// E - See Above
+// P - Need to loop through the compound interest while adding the new amount of interest every iteration
