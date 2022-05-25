@@ -15,3 +15,18 @@
 // R - Array of simple and compound interest numbers
 // E - See Above
 // P - Need to loop through the compound interest while adding the new amount of interest every iteration
+
+function interest(P, r, n) {
+    // your code here
+    let ary = [];
+    let simple = P * r * n + P;
+    let compound = P;
+    let interest = 0;
+    for (i = 0; i < n; i++) {
+        interest = compound * r;
+        compound += interest;
+    }
+    ary.push(Math.round(simple));
+    ary.push(Math.round(compound));
+    return ary;
+}
