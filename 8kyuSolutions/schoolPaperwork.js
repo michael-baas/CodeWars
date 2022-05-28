@@ -12,3 +12,7 @@
 // R - number of papers needed
 // E - See above
 // P - if n & m are greater than 0, multiply n by m for the total number of required blank pages.
+
+function paperwork(n, m) {
+    return n < 0 || m < 0 ? 0 : n * m;
+}   
