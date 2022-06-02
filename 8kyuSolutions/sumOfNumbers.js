@@ -9,3 +9,9 @@
 // (1, 1) --> 1 (1 since both are same)
 // (-1, 0) --> -1 (-1 + 0 = -1)
 // (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
+
+// P - negative or positive integers
+// R - sum of all numbers between the two integers 
+// E - See above
+// P - Find smallest then loop through and add together
+
