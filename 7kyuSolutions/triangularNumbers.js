@@ -9,3 +9,13 @@
 // n - is the size of one side.
 // T(n) - is the triangular number.
 // Given a number T from interval [1..2147483646], find if it is triangular number or not.
+
+// P - integer greater than 0 
+// R - true of false
+// E - See above 
+// P - Loop through to check if the function works or not
+
+
+
+
+
